@@ -14,21 +14,35 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Open Sans', sans-serif;
     background-image: url(bg-desktop.svg);
     background-color: var(--Violet);
     color: var(--white);
-}
-
-img {
-    width: 45%;
+    background-position: 60px;
+    background-attachment: fixed;
 }
 
 .img {
-    display: flex;
+    width: 60%;
+    float: left;
+    padding-top: 35px;
+}
+
+
+.community {
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: large;
+    padding-top: 45px;
+}
+
+.btn {
+    background-color: white;
+    color: var(--Violet);
+    border: 1px solid white;
+    font-size: 18px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
 }
