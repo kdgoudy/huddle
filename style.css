@@ -23,16 +23,29 @@ body {
     background-attachment: fixed;
 }
 
+.huddle-logo img {
+    width: 200px;
+}
+
+.community h1 {
+    font-weight: bold;
+}
+
 .img {
     width: 60%;
     float: left;
     padding-top: 35px;
 }
 
+.img img {
+    width: 650px;
+}
+
 
 .community {
     font-family: 'Poppins', sans-serif;
     padding-top: 45px;
+    padding-right: 20px;
 }
 
 .btn {
@@ -45,4 +58,23 @@ body {
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
+    width: 125px;
+    height: 30px;
+}
+
+span {
+    font-size: small;
+}
+
+.facebook {
+    width: 10%;
+    background-color: white;
+}
+
+.icons {
+    display: inline;
+}
+
+.fa-facebook {
+    width: 10px;
 }
